@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-Learning Vue.js using the cli via the Udemy Course.
+Learning Vue.js using the cli via the Udemy Course!
 
 ## Build Setup
 
