@@ -2,9 +2,11 @@
 
 > A Vue.js project
 
+Learning Vue.js using the cli via the Udemy Course.
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
