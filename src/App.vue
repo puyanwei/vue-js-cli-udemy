@@ -12,18 +12,18 @@
 </template>
 
 <script>
-import Header from './components/shared/Header.vue';
-import Footer from './components/shared/Footer.vue';
+import appHeader from './components/shared/Header.vue';
+import appFooter from './components/shared/Footer.vue';
 import Servers from './components/server/Servers.vue';
 import ServerStatus from './components/server/ServerStatus.vue';
 
 export default {
   // prettier-ignore
   components: {
-    'app-header': Header,
-    'app-footer': Footer,
-    'servers': Servers,
-    'server-status': ServerStatus,
+    appHeader,
+    appFooter,
+    Servers,
+    ServerStatus,
   }
 };
 </script>
