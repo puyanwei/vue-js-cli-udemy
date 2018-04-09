@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div>
         <app-server-status v-for="server in 5"></app-server-status>
     </div>
@@ -15,4 +15,4 @@ export default {
 </script>
 
 <style lang="css">
-</style>
+</style> -->
