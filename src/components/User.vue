@@ -3,10 +3,11 @@
       <h1>The User Component</h1>
       <p>I'm an awesome user!</p>
       <button @click="changeName">Change My Name</button>
+      <p>Name is {{ name }}</p>
       <hr>
       <div class="row">
           <div class="cols-xs-12 col-sm-6">
-              <user-detail :name="name"></user-detail>
+              <user-detail :myName="name" @nameWasReset="name = $event"></user-detail>
           </div>
           <div class="cols-xs-12 col-sm-6">
               <user-edit></user-edit>
@@ -22,12 +23,12 @@ import userEdit from './UserEdit.vue';
 export default {
   data: function() {
     return {
-      name: 'Ryu',
+      name: 'Ken',
     };
   },
   methods: {
     changeName() {
-      this.name = 'Ken';
+      this.name = 'Ryu';
     },
   },
   components: {
