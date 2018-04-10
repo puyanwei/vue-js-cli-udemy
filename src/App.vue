@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="cols-xs-12">
+            <div class="col-xs-12">
                 <app-user></app-user>
             </div>
         </div>
@@ -9,18 +9,18 @@
 </template>
 
 <script>
-import appUser from './components/User.vue';
+    import User from './components/User.vue';
 
-export default {
-  components: {
-    appUser,
-  },
-};
+    export default {
+        components: {
+            appUser: User
+        }
+    }
 </script>
 
 <style>
-div.component {
-  border: 1px solid black;
-  padding: 30px;
-}
+    div.component {
+        border: 1px solid black;
+        padding: 30px;
+    }
 </style>
